@@ -1,0 +1,12 @@
+packages:
+  darwin:
+    brews:
+    - 'neovim'
+    - 'zsh-autosuggestions'
+    - 'ripgrep'
+    - 'hyfetch'
+    - 'tree-sitter'
+    - 'ansible'
+    casks:
+    - 'font-fira-code-nerd-font'
+    - 'orbstack'
