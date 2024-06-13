@@ -5,8 +5,11 @@ return {
 	},
 	config = function ()
 		local sl = require('mini.statusline')
+		sl.setup {
+			use_icons = true,
+		}
 
-		sl.section_location = function ()
+		sl.section_location = function (args)
 			return '%2l:%-2v'
 		end
 	end
