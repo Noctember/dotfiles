@@ -10,3 +10,14 @@ packages:
     casks:
     - 'font-fira-code-nerd-font'
     - 'orbstack'
+  windows:
+    features:
+    - "OpenSSH.Client"
+    winget:
+      interactive:
+      - "Git.Git"
+      silent:
+      - "Neovim.Neovim"
+      - "GoLang.Go"
+      - "OpenJS.NodeJS"
+
