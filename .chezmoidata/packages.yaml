@@ -20,4 +20,5 @@ packages:
       - "Neovim.Neovim"
       - "GoLang.Go"
       - "OpenJS.NodeJS"
+      - "Microsoft.PowerToys"
 

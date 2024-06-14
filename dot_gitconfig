@@ -2,6 +2,6 @@
 	name = Xavier B.
 	email = hello@ncbr.wtf
 [core]
-	autocrlf = input
+	autocrlf = true
 [init]
 	defaultBranch = master
