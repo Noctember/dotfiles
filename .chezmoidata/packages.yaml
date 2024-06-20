@@ -22,3 +22,4 @@ packages:
       - "OpenJS.NodeJS"
       - "Microsoft.PowerToys"
       - "ShareX.ShareX"
+      - "BurntSushi.ripgrep.MSVC"
