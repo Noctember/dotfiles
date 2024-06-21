@@ -7,6 +7,7 @@ packages:
     - 'hyfetch'
     - 'tree-sitter'
     - 'ansible'
+    - 'pnpm'
     casks:
     - 'font-fira-code-nerd-font'
     - 'orbstack'
@@ -24,3 +25,4 @@ packages:
       - "ShareX.ShareX"
       - "BurntSushi.ripgrep.MSVC"
       - "Parsec.Parsec"
+      - "pnpm.pnpm"
