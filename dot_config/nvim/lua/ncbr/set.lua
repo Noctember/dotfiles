@@ -14,7 +14,7 @@ vim.opt.wrap = false
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.undordir = os.getenv 'HOME' .. '/.config/nvim/undodir'
+vim.undordir = vim.fn.stdpath('config') .. '/undodir'
 vim.opt.undofile = true
 
 vim.opt.hlsearch = false
@@ -22,7 +22,7 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 
-vim.opt.scrolloff = 8
+vim.opt.scrolloff = 4
 vim.opt.signcolumn = 'yes'
 vim.opt.isfname:append '@-@'
 
@@ -33,3 +33,7 @@ vim.g.mapleader = ' '
 vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
+
+if jit.os == "Windows" then
+	vim.g.undotree_DiffCommand = "git diff"
+end
