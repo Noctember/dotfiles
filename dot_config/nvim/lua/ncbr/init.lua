@@ -36,7 +36,9 @@ autocmd('LspAttach', {
 				quiet = true,
 			}
 		end)
-	end
+		
+		map('n', '<leader>h', vim.diagnostic.open_float, opts)
+	end,
 })
 
 
